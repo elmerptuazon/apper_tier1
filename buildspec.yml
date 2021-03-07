@@ -13,9 +13,11 @@ phases:
       - npm install
   build:
     commands:
+      - echo move to src
+      - cd express-minapp
       - echo Build started on `date`
-      - echo Compiling the Node.js code
-      - npm run build
+      - echo run dev
+      - npm run dev
   post_build:
     commands:
       - echo Build completed on `date`
