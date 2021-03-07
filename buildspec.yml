@@ -13,8 +13,6 @@ phases:
       - npm install
   build:
     commands:
-      - echo move to src
-      - cd express-minapp
       - echo Build started on `date`
       - echo run dev
       - npm run dev
