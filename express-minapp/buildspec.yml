@@ -7,6 +7,8 @@ phases:
       - echo Installing
   pre_build:
     commands:
+      - echo move to src
+      - cd express-minapp
       - echo Installing source NPM dependencies.
       - npm install
   build:
