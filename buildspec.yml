@@ -21,6 +21,10 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - express-minapp/src/index.js
-    - express-minapp/src/middlewares.js
-    - express-minapp/node_modules/**/*
+    - express-minapp/src/*
+    - express-minapp/node_modules/dotenv/*
+    - express-minapp/node_modules/express/*
+    - express-minapp/node_modules/morgan/*
+    - express-minapp/node_modules/cors/*
+    - express-minapp/node_modules/mysql/*
+    - express-minapp/node_modules/mysql/*
