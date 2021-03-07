@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({path: '../.env'})
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
@@ -26,13 +26,10 @@ app.use(middlewares.notFound)
 app.use(middlewares.errorHandler)
 
 const port = process.env.PORT || 1337
-
-const {
-  HOST,
-  USERNAME,
-  PASSWORD,
-  DATABASE
-} = process.env
+const HOST = "devtest.ckvgv8vhliuf.us-east-1.rds.amazonaws.com"
+const USERNAME = "admin"
+const PASSWORD = "qwe123qwe"
+const DATABASE = "appertest"
 
 app.listen(port, () => {
   // DON'T EDIT or MODIFY!!!!
