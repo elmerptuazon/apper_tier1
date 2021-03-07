@@ -27,4 +27,3 @@ artifacts:
     - express-minapp/node_modules/morgan/*
     - express-minapp/node_modules/cors/*
     - express-minapp/node_modules/mysql/*
-    - express-minapp/node_modules/mysql/*
